@@ -26,7 +26,20 @@ My primary stack is **Node.js** — I enjoy designing clean REST APIs, working w
 
 ## 📌 Pinned Projects
 
-### 🟢 Node.js — REST API Development
+### 🟢 Node.js — REST API & Fullstack Development
+
+#### [state-authorities-app](https://github.com/BohdanSharubin/state-authorities-app)
+A production-ready fullstack monorepo platform designed for tracking state authority directory metadata and automating government news aggregation. 
+
+- **Fullstack Infrastructure:** Connected a modular Express backend to a React frontend, implementing robust directory navigation and a comprehensive administrative control panel with full CRUD operations for state agencies.
+- **Automated Ingestion Workers:** Developed specialized crawlers (including a Cabinet of Ministers of Ukraine - KMU parser) paired with a **Gemini AI-driven News Service** featuring layout-adaptive, self-healing CSS selectors.
+- **Database Optimization:** Eliminated redundant write cycles by replacing heavy transaction `upsert` queries with pre-validated lookups (`Set` mapping algorithms) before executing batch inserts into PostgreSQL.
+- **Memory & Telemetry Hardening:** Optimized cloud runtime stability on Render within a 512MB RAM budget by constraining the V8 engine (`--max-old-space-size=384`) and configuring unbuffered real-time logging via Winston.
+- **Security & Standards:** Migrated data layers onto **Prisma v7**, restricted mass CSV data import/export routes behind strict token-validation layers, and enforced **Biome** for strict code quality linting.
+
+**Stack:** `TypeScript` · `Node.js` · `Express.js` · `React` · `Prisma v7` · `PostgreSQL (Neon)` · `Gemini API` · `Puppeteer` · `Winston` · `Biome`
+
+---
 
 #### [online-store](https://github.com/BohdanSharubin/online-store)
 A full-featured e-commerce REST API built with **Node.js + Express.js + MongoDB**.
@@ -65,7 +78,7 @@ University course project covering modern web technologies.
 #### [ukraine-law-parser](https://github.com/BohdanSharubin/ukraine-law-parser)
 A parser for Ukrainian legislative documents.
 
-**Stack:** `TypeScript` · `Node.js` · `Express.js` · `Axios` · `PostgreSQL 16` · `Cheerio` · `PDF-parse` · `Prisma` · 
+**Stack:** `TypeScript` · `Node.js` · `Express.js` · `Axios` · `PostgreSQL 16` · `Cheerio` · `PDF-parse` · `Prisma`
 
 ---
 
@@ -89,9 +102,10 @@ A desktop CMS for managing movie data, built as a team student project. I served
 
 **Stack:** `Java 17` · `JavaFX` · `PostgreSQL 16` · `Maven` · `JUnit 5` · `GitHub Actions`
 
-
 ---
 
 ## 📫 Connect
 
 [![GitHub](https://img.shields.io/badge/GitHub-BohdanSharubin-181717?style=flat&logo=github)](https://github.com/BohdanSharubin)
+
+```
