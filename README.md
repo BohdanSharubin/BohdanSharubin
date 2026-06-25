@@ -107,5 +107,3 @@ A desktop CMS for managing movie data, built as a team student project. I served
 ## 📫 Connect
 
 [![GitHub](https://img.shields.io/badge/GitHub-BohdanSharubin-181717?style=flat&logo=github)](https://github.com/BohdanSharubin)
-
-```
